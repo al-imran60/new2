@@ -1,0 +1,434 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+/* nav bar */
+.nav-bar-container{
+  background-color: #1e221d;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  
+}
+.logo img{
+  width: 130px;
+  margin: 20px;
+  
+}
+
+.nav-menu{
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 850px;
+  
+}
+
+.nav-menu a{
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.4rem;
+  transition: 2.6s;
+}
+.nav-menu a:hover{
+  box-shadow: 2px 4px 20px 40px rgb(81, 255, 0);
+}
+
+/* nav bar ends */
+
+/* contact form  */
+
+.contact-form-container{
+  background-color: #f9ca24;
+  padding: 0px;
+  display: flex;
+  box-shadow: 2px 4px 6px 2px ;
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+.text-left{
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 40px;
+}
+h4{
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  width: 200%;
+  text-transform: uppercase;
+}
+h5{
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.text-right{
+  position: relative;
+  width: 70%;
+  margin-left: 48%;
+  
+}
+.form{
+  width: 450px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+}
+.form1{
+  width: 355px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+}
+.btn-1{
+  width: 80px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.select-sec{
+  margin-top: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.course{
+  margin-top: 10px;
+  margin: 10px;
+}
+.select-sec-1{
+  margin: 10px;
+}
+.btn-12{
+  width: 450px;
+  padding: 6px;
+  margin: 5px;
+  margin-top: 15px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px 2px ;
+}
+
+.select-sec{
+  margin-left: 10px;
+
+}
+
+/* contact form ends */
+
+/* footer section  */
+
+.footer-container{
+  background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(img/footer\ banner.jpg) ;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+.about-text-here{
+  margin-left: 90px;
+  padding-top: 80px;
+}
+.footerp{
+  color: white;
+}
+.about-company{
+  color: white;
+  margin-bottom: 15px;
+  
+}
+.about-company-1{
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+.about-line{
+  width: 140%;
+}
+.address-line{
+  margin-top: 20px;
+}
+.copy-right{
+  margin-top: 60px;
+ padding-bottom: 40px;
+
+}
+
+.about-com{
+  width: 250px;
+
+}
+.links{
+  
+  margin-left: 130px;
+  padding-top: 80px;
+}
+.link-name ol{
+  color: white;
+  
+  list-style: none;
+  padding-top: 140px;
+  
+}
+.link-name ol li{
+  margin: 15px;
+  letter-spacing: 4px;
+}
+.link1 img{
+  width: 20px;
+  margin: 5px;
+}
+.link-logo{
+  margin-top: 20px;
+  padding-bottom: 80px;
+  width: 10px;
+  
+}
+
+.cont-des{
+  margin-top: 40px;
+}
+
+
+.contact-us{
+  margin-left: 170px;
+  padding-top: 80px;
+}
+/* footer section ends */
+
+
+
+
+
+
+
+
+
+/* mobile responsive section */
+
+@media only screen and (max-width: 600px){
+
+
+  .nav-bar-container{
+    background-color: #9ba099;
+    width: 100%;
+    
+  }
+  .logo img{
+    width: 150px;
+    margin: 10px;
+    margin-top: 50px;
+   
+  }
+  .nav-menu{
+    margin-top: 20px;
+    margin-left: 1%;
+    position: relative;
+  }
+  .nav-menu a{
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+    transition: 2.6s;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+  .nav-menu a:hover{
+    box-shadow: 2px 4px 20px 10px rgb(81, 255, 0);
+    background-color: black;
+  }
+  
+/* contact form  */
+
+.contact-form-container{
+  background-color: #f9ca24;
+  padding: none;
+  display: inline-table;
+  box-shadow: 2px 4px 6px 2px ;
+  padding-top: 300px;
+  padding-bottom: 0px;
+}
+.text-left{
+  width: 60%;
+  margin-left: 4%;
+  margin-top: 40px;
+  
+}
+h4{
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  width: 100%;
+  text-transform: uppercase;
+ 
+}
+h5{
+  font-size: 1rem;
+  margin-top: 35px;
+  
+}
+
+.text-right{
+  position: relative;
+  width: 100%;
+  margin-left:0;
+  margin-top: 80px;
+}
+.form{
+  width: 300px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+ 
+}
+.form1{
+  width: 205px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+  
+}
+.btn-1{
+  width: 80px;
+  padding: 6px;
+  margin: 5px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.select-sec{
+  margin-top: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.course{
+  margin-top: 20px;
+  width: 10px;
+  margin-left: 20px;
+  
+}
+.select-sec-1{
+  margin: 10px;
+}
+
+.btn-12{
+  width: 270px;
+  padding: 6px;
+  margin: 5px;
+  margin-top: 65px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px 2px ;
+}
+/* footer section  */
+
+.footer-container{
+  background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(img/footer\ banner.jpg) ;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  
+}
+.about-text-here{
+  margin-left: 10px;
+  padding-top: 20px;
+  width: 25%;
+}
+.about-company{
+  color: white;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+.footerp{
+  color: white;
+  font-size: 10px;
+  line-height: 20px;
+}
+.about-com{
+  width: 70px;
+
+}
+.links{
+  
+  margin-left: 30px;
+  padding-top: 25px;
+}
+.about-company-1{
+  color: white;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  font-size: 10px;
+  
+}
+.about-line{
+  width: 100%;
+  margin-left: -30px;
+}
+.link-name{
+  margin-top: -65px;
+  margin-left: -100px;
+}
+.link1 img{
+  width: 15px;
+  margin: 5px;
+}
+.link-logo{
+  margin-top: 30px;
+  padding-bottom: 80px;
+  width: 10px;
+  margin-left: -30px;
+}
+.link-name ol li{
+  margin: 19px;
+  letter-spacing: normal;
+  font-size: 10px;
+}
+.cont-des{
+  margin-top: 40px;
+  margin-left: -10px;
+}
+
+
+.contact-us{
+ 
+  margin-left: 10px;
+  margin-top: -49px;
+}
+}
+
+
+
+
+
+
